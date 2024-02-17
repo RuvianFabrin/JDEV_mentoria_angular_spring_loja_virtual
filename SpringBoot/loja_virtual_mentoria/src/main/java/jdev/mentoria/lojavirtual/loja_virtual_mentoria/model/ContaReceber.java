@@ -27,6 +27,7 @@ public class ContaReceber implements Serializable {
 
     @Temporal(TemporalType.DATE)
     private Date dtVencimento;
+    
     @Temporal(TemporalType.DATE)
     private Date dtPagamento;
 
